@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "3a9d287a5775223d4dc2144ab1c12319"
+build_time: [1542022268, 862778000]
+inputs:
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/ViewController.swift": [1542022256, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/Person+CoreDataClass.swift": [1542017442, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/Databasehandler.swift": [1542020613, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/ListController.swift": [1542020636, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/Person+CoreDataProperties.swift": [1542017442, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/ListCell.swift": [1542017034, 0]
+  "/Users/sriramprasad/Dev/rough/Coredata2/Coredata2/AppDelegate.swift": [1542016833, 0]

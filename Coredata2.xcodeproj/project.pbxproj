@@ -13,6 +13,11 @@
 		081BEF2A219986C1008D1FA1 /* Coredata2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF28219986C1008D1FA1 /* Coredata2.xcdatamodeld */; };
 		081BEF2C219986C3008D1FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081BEF2B219986C3008D1FA1 /* Assets.xcassets */; };
 		081BEF2F219986C3008D1FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081BEF2D219986C3008D1FA1 /* LaunchScreen.storyboard */; };
+		081BEF372199878A008D1FA1 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF362199878A008D1FA1 /* ListCell.swift */; };
+		081BEF39219987A2008D1FA1 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF38219987A2008D1FA1 /* ListController.swift */; };
+		081BEF3B21998844008D1FA1 /* Databasehandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF3A21998844008D1FA1 /* Databasehandler.swift */; };
+		081BEF3E21998923008D1FA1 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF3C21998923008D1FA1 /* Person+CoreDataClass.swift */; };
+		081BEF3F21998923008D1FA1 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF3D21998923008D1FA1 /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		081BEF2B219986C3008D1FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		081BEF2E219986C3008D1FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		081BEF30219986C3008D1FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081BEF362199878A008D1FA1 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		081BEF38219987A2008D1FA1 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		081BEF3A21998844008D1FA1 /* Databasehandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasehandler.swift; sourceTree = "<group>"; };
+		081BEF3C21998923008D1FA1 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataClass.swift"; path = "Coredata2/Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		081BEF3D21998923008D1FA1 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Person+CoreDataProperties.swift"; path = "Coredata2/Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,8 @@
 		081BEF15219986C1008D1FA1 = {
 			isa = PBXGroup;
 			children = (
+				081BEF3C21998923008D1FA1 /* Person+CoreDataClass.swift */,
+				081BEF3D21998923008D1FA1 /* Person+CoreDataProperties.swift */,
 				081BEF20219986C1008D1FA1 /* Coredata2 */,
 				081BEF1F219986C1008D1FA1 /* Products */,
 			);
@@ -59,6 +71,9 @@
 				081BEF21219986C1008D1FA1 /* AppDelegate.swift */,
 				081BEF23219986C1008D1FA1 /* ViewController.swift */,
 				081BEF25219986C1008D1FA1 /* Main.storyboard */,
+				081BEF3A21998844008D1FA1 /* Databasehandler.swift */,
+				081BEF362199878A008D1FA1 /* ListCell.swift */,
+				081BEF38219987A2008D1FA1 /* ListController.swift */,
 				081BEF2B219986C3008D1FA1 /* Assets.xcassets */,
 				081BEF2D219986C3008D1FA1 /* LaunchScreen.storyboard */,
 				081BEF30219986C3008D1FA1 /* Info.plist */,
@@ -139,6 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				081BEF24219986C1008D1FA1 /* ViewController.swift in Sources */,
+				081BEF3E21998923008D1FA1 /* Person+CoreDataClass.swift in Sources */,
+				081BEF3B21998844008D1FA1 /* Databasehandler.swift in Sources */,
+				081BEF39219987A2008D1FA1 /* ListController.swift in Sources */,
+				081BEF3F21998923008D1FA1 /* Person+CoreDataProperties.swift in Sources */,
+				081BEF372199878A008D1FA1 /* ListCell.swift in Sources */,
 				081BEF2A219986C1008D1FA1 /* Coredata2.xcdatamodeld in Sources */,
 				081BEF22219986C1008D1FA1 /* AppDelegate.swift in Sources */,
 			);
